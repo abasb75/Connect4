@@ -20,19 +20,19 @@ var time = window.setTimeout(function () {
     document.getElementById("body_page").innerHTML = "<div id=\"LoadPage\">\n" +
         "        <div id=\"LoadPageSelection\">\n" +
         "            <div id=\"guideTextinloadpagesellection\">برای شروع بازی درجه سختی را انتخاب کنید.</div>\n" +
-        "            <label id=\"getusernameLabel\" for=\"getusername\">نام کاربری</label>\n" +
+        "            <label id=\"getusernameLabel\" for=\"getusername\">your name</label>\n" +
         "            <div id=\"getusernameDiv\"><input type=\"text\" id=\"getusername\"></div>\n" +
-        "            <button type=\"button\" id=\"startButton\" onclick=\"startgame()\">شروع بازی</button>\n" +
-        "            <label id=\"selectdificultyLabel\">انتخاب درجه سختی</label>\n" +
+        "            <button type=\"button\" id=\"startButton\" onclick=\"startgame()\">Start game</button>\n" +
+        "            <label id=\"selectdificultyLabel\">select dificulty level</label>\n" +
         "            <div id=\"selectdificulty\">\n" +
-        "                <span class=\"1 sp1\" onclick=\"changeDeficulty(1)\">۱</span>\n" +
-        "                <span class=\"2 sp1\" onclick=\"changeDeficulty(2)\">۲</span>\n" +
-        "                <span class=\"3 sp1\" onclick=\"changeDeficulty(3)\">۳</span>\n" +
-        "                <span class=\"4 sp1\" onclick=\"changeDeficulty(4)\">۴</span>\n" +
-        "                <span class=\"5 sp1 selectedspan\" onclick=\"changeDeficulty(5)\">۵</span>\n" +
-        "                <span class=\"6 sp1\" onclick=\"changeDeficulty(6)\">۶</span>\n" +
-        "                <span class=\"7 sp1\" onclick=\"changeDeficulty(7)\">۷</span>\n" +
-        "                <span class=\"8 sp1\" onclick=\"changeDeficulty(8)\">۸</span>\n" +
+        "                <span class=\"1 sp1\" onclick=\"changeDeficulty(1)\">1</span>\n" +
+        "                <span class=\"2 sp1\" onclick=\"changeDeficulty(2)\">2</span>\n" +
+        "                <span class=\"3 sp1\" onclick=\"changeDeficulty(3)\">3</span>\n" +
+        "                <span class=\"4 sp1\" onclick=\"changeDeficulty(4)\">4</span>\n" +
+        "                <span class=\"5 sp1 selectedspan\" onclick=\"changeDeficulty(5)\">5</span>\n" +
+        "                <span class=\"6 sp1\" onclick=\"changeDeficulty(6)\">6</span>\n" +
+        "                <span class=\"7 sp1\" onclick=\"changeDeficulty(7)\">7</span>\n" +
+        "                <span class=\"8 sp1\" onclick=\"changeDeficulty(8)\">8</span>\n" +
         "            </div>\n" +
         "\n" +
         "        </div>\n" +
@@ -320,9 +320,9 @@ function createGbs() {
     htmlString = htmlString +
         "                    </div>\n" +
         "                    <div id=\"gamecontrol\">\n" +
-        "                        <button id=\"restart\" onclick='reset()'>شروع مجدد</button>\n" +
+        "                        <button id=\"restart\" onclick='reset()'>reset</button>\n" +
         "                        <button id=\"pause\">مکث</button>\n" +
-        "                        <button id=\"exit\" onclick=\"refresh()\">خروج</button>\n" +
+        "                        <button id=\"exit\" onclick=\"refresh()\">exit</button>\n" +
         "                    </div>\n" +
         "                    <div id=\"ai_action\" class=\"hiddenDiv\">هوش مصنوعی ...</div>"+
         "                </section>\n" +
